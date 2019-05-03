@@ -1,0 +1,43 @@
+body {
+    color: FF0000;
+        background: rgb(255, 255, 255);
+        background-image: url("watercolor.border.png");
+        background-position: center ;
+        background-size: 100%;
+
+}
+figure {
+  text-align: center;
+}
+figcaption{ 
+  font-size: 20px;
+  color: black;
+}
+#spisok {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 2px solid #0066ff;
+background-position-x: 75%;
+
+text-align: center;
+background-color: violet;
+
+  } 
+  p {
+    font-size: 25px;
+}
+  #spisok li { display: inline; }
+  #spisok a {
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+    position: center;
+  }
+  #spisok a:hover {
+    border-radius: 20px 5px;
+    background-color: #0066FF;
+  }

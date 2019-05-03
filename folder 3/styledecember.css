@@ -1,0 +1,55 @@
+body {
+    color: FF0000;
+        background: rgb(255, 255, 255);
+        background-image: url("watercolor.border.png");
+        
+        background-position: center ;
+        background-size: 100%;
+}
+p {
+font-size: 25px;
+}
+div {
+    font-size: 25px;
+}
+
+a.rollover {
+    background: url(photo_2019-03-27_22-35-56.jpg); 
+    display: block; 
+    width: 450px; 
+    height: 300px; 
+    margin-top: 20px;
+    
+margin-right: auto;
+margin-bottom: 50px;
+margin-left: auto;
+   }
+   a.rollover:hover {
+    background: url(PWfI_XCAtvQ.jpg); /* Путь к файлу с заменяемым рисунком  */
+   }
+   #spisok {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 2px solid #0066ff;
+background-position-x: 75%;
+
+text-align: center;
+background-color: violet;
+
+  } 
+  #spisok li { display: inline; }
+  #spisok a {
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+    position: center;
+  }
+  #spisok a:hover {
+    border-radius: 20px 5px;
+    background-color: #0066FF;
+  }
+  .mirrorY { transform: scale(-1, 1); }
